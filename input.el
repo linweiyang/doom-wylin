@@ -45,10 +45,10 @@
 
 (use-package! pyim
   :init
-  (setq pyim-page-length 9
+  (setq pyim-page-length 5
         default-input-method "pyim"
         pyim-page-tooltip 'posframe
-        pyim-titles '("鼠须管" "PYIM-EN " "PYIM-AU ")
+        pyim-title '"鼠须管"
         )
   :config
   ;; 选词方法
@@ -68,6 +68,6 @@
   ;; (rime_user_data_dir (file-truename "~/.config/doom.wylin/pyim/rime/"))
   :config
   ;; 配置同步文件夹
-  (liberime-start "/Library/Input Methods/Squirrel.app/Contents/SharedSupport/" "~/.config/doom-wylin/pyim/rime/")
+  (liberime-start "/Library/Input Methods/Squirrel.app/Contents/SharedSupport" "~/.config/doom-wylin/pyim/rime")
   (liberime-select-schema "luna_pinyin_simp")
   (setq pyim-default-scheme 'rime-quanpin))

@@ -7,6 +7,9 @@
 (require 'flycheck)
 (add-to-list 'flycheck-checkers 'textlint)
 
+(doom-big-font-mode)
+(global-undo-tree-mode)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -57,4 +60,3 @@
 ;; (matlab-mode-common-setup)
 
 (require 'doxygen)
-(doom-big-font-mode)

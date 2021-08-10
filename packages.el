@@ -30,6 +30,8 @@
 (package! textlint)
 (package! pyim)
 (package! liberime)
+(package! undo-tree)
+(package! org-roam-server)
 
 (provide 'packages)
 ;;; package.el ends here

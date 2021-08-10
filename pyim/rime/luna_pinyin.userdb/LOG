@@ -1,0 +1,5 @@
+2021/08/10-09:21:42.345688 0x7000036d2000 Table #15: 5 entries OK
+2021/08/10-09:21:42.346950 0x7000036d2000 Table #10: 15019 entries OK
+2021/08/10-09:21:42.347734 0x7000036d2000 Table #5: 15019 entries OK
+2021/08/10-09:21:42.348727 0x7000036d2000 Archiving /Users/wylin/.config/doom-wylin/pyim/rime/luna_pinyin.userdb/MANIFEST-000001: OK
+2021/08/10-09:21:42.369495 0x7000036d2000 **** Repaired leveldb /Users/wylin/.config/doom-wylin/pyim/rime/luna_pinyin.userdb; recovered 3 files; 1246490 bytes. Some data may have been lost. ****
