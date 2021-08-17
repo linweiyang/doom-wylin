@@ -32,6 +32,7 @@
 (package! liberime)
 (package! undo-tree)
 (package! org-roam-server)
+(package! dap-mode)
 
 (provide 'packages)
 ;;; package.el ends here

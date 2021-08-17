@@ -13,7 +13,6 @@
  :gvni "C-w"   #'kill-region
  :gvni "M-w"   #'kill-ring-save
  :gvni "C-'"   #'toggle-input-method
-
  )
 
 
