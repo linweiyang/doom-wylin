@@ -60,7 +60,6 @@
 ;; (matlab-mode-common-setup)
 
 (require 'doxygen)
-(require 'dap-lldb)
 (require 'dap-cpptools)
 
 (use-package dap-mode

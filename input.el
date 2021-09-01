@@ -45,7 +45,7 @@
 
 (use-package! pyim
   :init
-  (setq pyim-page-length 5
+  (setq pyim-page-length 9
         default-input-method "pyim"
         pyim-page-tooltip 'posframe
         pyim-title '"鼠须管"
