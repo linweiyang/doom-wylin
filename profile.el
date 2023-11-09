@@ -2,7 +2,7 @@
 
 (load! "bindings")
 (load! "input")
-(load! "orgconf")
+;;(load! "orgconf")
 
 (require 'flycheck)
 (add-to-list 'flycheck-checkers 'textlint)
