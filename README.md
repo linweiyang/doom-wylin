@@ -13,3 +13,8 @@
 (let ((packages "~/.config/doom-wylin/packages.el"))
   (when (file-exists-p packages)
     (load-file packages)))
+
+
+## 安装字体
+M-x: nerd-icons-install-fonts
+M-x: all-the-icons-install-fonts
